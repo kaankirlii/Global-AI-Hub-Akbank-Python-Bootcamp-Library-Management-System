@@ -75,7 +75,8 @@ class Library:
     # Print a success message
     print("Book added successfully.")
 
-
+  #The system validates user input to ensure it corresponds to the 
+  #expected data type (e.g., integer for release year and number of pages). 
   def get_valid_input(self, message, data_type):
         while True:
             user_input = input(message)
