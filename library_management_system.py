@@ -130,8 +130,8 @@ menu = """  ***MENU***
 """
 print(menu)
 
-# input çıkarken
-
+# while input is entered, every input steps are controlled with if, elif and else. 
+# if the input is available, the functions of the steps are available
 while True:
   menu_input = input("Enter your choice ('q' For quit ): ")
 
